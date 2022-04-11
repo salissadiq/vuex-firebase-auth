@@ -1,7 +1,7 @@
 <template>
     <v-app-bar
       app
-      color="primary"
+      color="#9155FD"
       dark
       dense
     >
@@ -19,8 +19,9 @@
       </v-btn>
       <v-btn
         text
+        to="/auth"
       >
-        <span class="mr-2">Sign in</span>
+        <span class="mr-2" >Sign in</span>
         <v-icon>mdi-login-variant</v-icon>
       </v-btn>
     </v-app-bar>
